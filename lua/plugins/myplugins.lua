@@ -38,7 +38,11 @@ local plugins = {
       table.insert(M.sources, {name = "crates"})
       return M
     end
-  }
+  },
+  {
+    "ve5li/better-goto-file.nvim",
+    config = true,
+  } 
 }
 
 return plugins
