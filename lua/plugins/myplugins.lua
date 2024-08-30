@@ -42,7 +42,10 @@ local plugins = {
   {
     "ve5li/better-goto-file.nvim",
     config = true,
-    lazy = false
+    lazy = false,
+    ---@module "better-goto-file"
+    ---@type better-goto-file.Options
+    opts = {}
   }
 }
 
