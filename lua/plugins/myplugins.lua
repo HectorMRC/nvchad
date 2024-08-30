@@ -40,9 +40,10 @@ local plugins = {
     end
   },
   {
-    "vE5li/better-goto-file.nvim",
-    config = true,    
-  } 
+    "ve5li/better-goto-file.nvim",
+    config = true,
+    lazy = false
+  }
 }
 
 return plugins
