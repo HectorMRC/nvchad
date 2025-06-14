@@ -3,6 +3,7 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        "lua_ls",
         "rust-analyzer",
       },
     },
@@ -46,6 +47,10 @@ local plugins = {
     ---@module "better-goto-file"
     ---@type better-goto-file.Options
     opts = {}
+  },
+  {
+    "eandrju/cellular-automaton.nvim",
+    lazy = false,
   }
 }
 
